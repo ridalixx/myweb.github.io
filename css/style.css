@@ -1,0 +1,273 @@
+:root {
+    --dark-color: #0E0017;
+    --bluedark-color:#00254F;
+    --purble-color:#43022D;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --section-color: #eff7fa;
+  }
+  body{
+    font-family: "Lemon",sans-serif;
+    
+   
+  }
+  .txtcolor1{
+    color: var(--green-color);
+  }
+  .txtcolor2{
+    color: var(--red-color);
+  }
+  .main-title::after{
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+/* start navbar */
+.txtlogo{
+font-size: 2px;
+}
+ .iconnav a{
+  color: white;
+
+}
+.iconnav a :hover{
+  color: var(--green-color);
+}
+  .navbar{
+    background-color: var(--bluedark-color);
+  }
+  .navbar .navbar-nav .nav-link{
+    color: var(--section-color);
+
+  }
+  
+  .navbar .navbar-nav .nav-link:active,
+  .navbar .navbar-nav .nav-link:focus,
+  .navbar .navbar-nav .nav-link:hover{
+    color: var(--green-color);
+    
+  }
+
+  .navbar .navbar-toggler{
+    color: white;
+    font-size: 25px;
+    border-color: white;
+  }
+  .navbar .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  .navbar .navbar-toggler[aria-expanded="true"]{
+    color: var(--green-color);
+    border-color: var(--green-color);
+  }
+  /* end navbar */
+
+  /* start landing home */
+
+  .landing{
+    background:url(https://img.freepik.com/free-vector/realistic-neon-lights-shapes-background_52683-59346.jpg?w=826&t=st=1666202808~exp=1666203408~hmac=ed7819e90ef79f684ff954c3124592e5c0ce80a1898e3816a31556a2089221f8);
+    background-size: cover;
+    min-height: calc(100vh - 70px);
+  }
+  .landing .txtmain{
+    font-size: 50px;
+  }
+
+  .btn-main{
+    background-color: var(--purble-color);
+    color: white;
+
+  }
+  .btn-main:hover{
+    background-color: #33d1cc;
+    color: wheat;
+  }
+
+
+  /* end landing home */
+
+  /* start service */
+  
+  .feuture .feat{
+    background-color:var(--bluedark-color);
+    
+    border-radius: 30px;
+  }
+  .feuture .feat h4 {
+    color: var(--red-color);
+  }
+  .feuture .icon-holder p {
+    color: white;
+  }
+  .feuture .icon-holder{
+    height: 200px;
+  }
+
+  .feuture .icon-holder{
+    left: 33%;
+    transform: translateX(-50%);
+  }
+  .feuture .icon-holder .icon1{
+    font-size: 12rem;
+    color: rgba(128, 128, 128, 0.229);
+  }
+
+  .feuture .icon-holder .icon2{
+    color:var(--green-color);
+    font-size: 5rem;
+    
+  }
+
+
+
+  /* end service */
+
+  /* start my works */
+
+  .myworks{
+    background-color: var(--bluedark-color);
+  }
+  .myworks .main-title {
+    color: black;
+  }
+  .myworks img {
+    height: 300px;
+    width: 250px;
+    opacity: 0.5;
+    border-radius: 10px;
+  }
+  .myworks img:hover{
+    
+    opacity: 1;
+    box-shadow: 10px 20px 30px  var(--green-color);
+    border-radius: 15px;
+    
+
+  }
+  
+  
+  /* end my works */
+
+  /* about stuff */
+  .stuff .description{
+    max-width: 700px;
+  }
+ 
+  .aboutimg{
+    width: 750px;
+    height: 500px;
+  }
+  /* end about stuff */
+
+
+  /* team */
+  .team {
+    background-color: var(--bluedark-color);
+    
+  }
+  .team img {
+    height: 300px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+  .team h2 {
+    color: black;
+  }
+  .team .box h4 {
+    background-color: var(--green-color);
+    
+  }
+  .team .box{
+    border-radius: 50px;
+  }
+  
+  /* End Team */
+  
+/* start order */
+
+.project {
+  background-color:var(--bluedark-color);
+}
+.project .btn{
+background-color: var(--red-color);
+color: white;
+}
+.project .btn:hover{
+  background-color: var(--green-color);
+  color: white;
+}
+/* end  order */
+
+/* Start Subscribe */
+.subscribe {
+  background-color: var(--yellow-color);
+}
+.subscribe input[type="text"] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+.subscribe input[type="text"]:focus {
+  outline: none;
+}
+.subscribe ::placeholder {
+  color: white;
+}
+.subscribe input[type="submit"] {
+  background-color: var(--red-color);
+  color: var(--yellow-color);
+}
+.subscribe input[type="submit"]:hover{
+  background-color: var(--green-color);
+}
+/* End Subscribe */
+
+/* footer :start */
+.iconfooter a {
+color: white;
+}
+.iconfooter a:hover{
+color: var(--green-color);
+}
+.iconft .btn{
+  color: white;
+  background-color: var(--red-color);
+}
+.iconft .btn:hover{
+  background-color: var(--green-color);
+  color: white;
+}
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 980px){
+    .myworks img {
+      height: 300px;
+      width: 600px;
+      opacity: 0.5;
+      border-radius: 10px;
+    }
+    
+  }
+  
